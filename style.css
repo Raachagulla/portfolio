@@ -1,0 +1,605 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+  
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.container{
+
+    background-color: black;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
+.main{
+    
+    background-color: black; 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    margin-bottom:100px;
+}
+.heading{
+    /* border-bottom: 3px solid grey; */
+    width:100%;
+   display:flex;
+ /* gap:300px; */
+   align-items:center;
+   justify-content:space-around;
+   margin: 60px 0;
+   background-color: black;
+}
+.hi{
+    display:none;
+}
+.name{
+    margin-top:10px;
+   
+    margin-left: 10px;
+    color:white;
+    width:50%;
+    font-size: 20px;
+    font-weight: 600;
+    display:flex;
+    align-items: start;
+
+}
+.name p:first-child{
+    color:aqua;
+    
+}
+.name p{
+    margin-left:5px;
+}
+.links{
+    display:flex;
+    gap:30px;
+    justify-content: space-between;
+    margin-right: 5px;;
+}
+.links .link{
+    font-weight: 600;
+color:white;
+border-bottom: none;
+transition: 2s all;
+}
+.links .link:hover{
+    color: aqua;
+}
+.pic img{
+    box-shadow:5px 5px 5px 2px rgb(208, 201, 194) ;
+}
+.pic img{
+    border-radius: 50%;
+    background-color: aqua;
+    width:200px;
+    height:200px;
+
+}
+.introduction{
+    background-color: rgba(0, 0, 0, 0.896); 
+    margin:90px;
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+  
+}
+.intro{
+    margin-left: 50px;;
+    width:50%;
+}
+.intro h2{
+    font-family:Arial, Helvetica, sans-serif;
+     margin-bottom: 5px;;
+    color:white;
+
+    font-weight: 600;
+}
+.hi {
+    
+    color:aqua;
+    background-color: black;
+}
+mark{
+    color:aqua;
+    background-color:black;
+    border-radius: 10px;;
+}
+.intro h2:last-element{
+    color:aqua;
+}
+.intro h3{
+    font-weight: 600;
+    margin-bottom: 5px;
+    color:white;
+
+}
+.intro p{
+    font-size: 14px;
+    color:white;
+    margin-bottom: 20px;;
+}
+.pic{
+    border-radius: 50%;
+    margin-right:200px;
+    display:flex;
+   flex-direction: row;
+   align-content: center;
+   justify-content: flex-end;
+
+    width:50%;
+}
+.hire{
+    width:70px;
+    height:25px;
+    margin-right:5px;
+    border-radius: 20px;
+    border:2px solid aquamarine;
+    color:aquamarine;
+    background-color: rgba(0, 0, 0, 0.88);
+    transition:1s all;
+}
+.contacs{
+    color:aquamarine;
+    width:70px;
+    height:25px;
+    border-radius: 20px;
+    border:2px solid aquamarine;
+    background-color: rgba(0, 0, 0, 0.88);
+    transition:1s all;
+}
+.hire:hover{
+    background-color: aquamarine;
+    color:black;
+}
+.contacs:hover{
+    background-color: aquamarine;
+    color:black;
+}
+
+.icons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    /* background-color: pink; */
+    width:100px;
+    height:50px;
+    margin-bottom: 10px;
+}
+.icon{
+  
+    height:40px;
+     /* border: 2px solid aqua; */
+    width:100%; 
+}
+.insta{
+    color:aqua;
+    font-size: 30px;
+    transition: 1s all;
+    
+
+    }
+    .git{
+        color:aqua;
+        font-size: 30px;;
+        transition: 1s all;
+    
+        }
+     .insta:hover{
+        color:white;
+        background-color: aqua;
+        border-radius: 50%;
+        z-index: 10;
+     }   
+     .git:hover{
+        color:white;
+        background-color: aqua;
+        border-radius: 50%;
+     } 
+     .education{
+        height:150vh;
+     }
+     .education h3{
+        font-size: 50px;;
+        margin-bottom: 10px;
+        text-align: center;
+        color:white;
+     } 
+     .stick{
+        position:absolute;
+        background-color: aqua;
+        height:150vh;
+        width:5px;
+        margin-bottom: 10px;;
+     } 
+     .dot1{
+        background-color: aqua;
+        height:10px;
+        width:10px;
+        border-radius: 50%;
+        position:relative;
+        right:2px;
+        box-shadow: 2px 2px 2px 2px aqua;
+    
+     }
+     .year1{
+        position: absolute;
+        right:18px;
+        color:white;
+     }
+     
+     
+     .dot2{
+        background-color: aqua;
+        height:10px;
+        width:10px;
+        border-radius: 50%;
+        position:relative;
+        right:2px;
+        top:150px;
+        box-shadow: 2px 2px 2px 2px aqua;
+     }
+     .year2{
+        position: absolute;
+    left:18px;
+    color:white;
+     }
+    
+    
+     .dot3{
+        background-color: aqua;
+        height:10px;
+        width:10px;
+        border-radius: 50%;
+        position:relative;
+        right:2px;
+        top:200px;
+        box-shadow: 2px 2px 2px 2px aqua;
+     }
+     .year3{
+        position: absolute;
+        right:18px;
+        color:white;
+     }
+    
+    
+     .dot4{
+        background-color: aqua;
+        height:10px;
+        width:10px;
+        border-radius: 50%;
+        position:relative;
+        right:0px;
+        top:200px;
+        box-shadow: 2px 2px 2px 2px aqua;
+     }
+     .year4{
+        position: absolute;
+        left:18px;
+        top:-7px;
+        color:white;
+     }
+    
+    
+    .year1matter{
+        position:absolute;
+        left:450px;
+        height:120px;
+        border: 3px solid aqua;
+        border-radius:0 50px 0 30px;
+    }
+    .year1matter h3{
+        font-size: 20px;;
+     }
+     .year1matter p{
+        width:300px;
+        height:60px;
+        line-height: 15px;;
+        margin-left:15px;color: azure;
+     }
+     .year2matter{
+        position:relative;
+        height:145px;
+        border: 3px solid aqua;
+        border-radius: 0 30px;
+        right:340px;
+        top:150px;
+        color: azure;
+    }
+     .year2matter h3{
+        font-size: 20px;;
+     }
+     .year2matter p{
+        width:300px;
+        height:60px;
+        line-height: 15px;;
+        margin-left:10px;
+     }
+     .year3matter h3{
+        font-size: 20px;;
+     }
+     .year3matter p{
+        width:300px;
+        height:90px;
+        line-height: 15px;;
+        margin-left:10px;
+        color: azure;
+     }
+     .year3matter{
+        position:absolute;
+        height:180px;
+        border: 3px solid aqua;
+        right:-330px;
+        top:10px;
+        border-radius: 0 30px;;
+    }
+    .year4matter{
+        position:absolute;
+        height:120px;
+        border: 3px solid aqua;
+        right:30px;
+        top:200px;
+        border-radius: 0 30px;;
+        color: azure;
+    }
+     .year4matter h3{
+        font-size: 20px;;
+     }
+     .year4matter p{
+        width:300px;
+        height:60px;
+        line-height: 15px;;
+        margin-left:10px;
+     }
+     .year1matter:hover{
+        box-shadow: 2px 2px 2px 5px aqua;
+        z-index: 20;
+     }
+     .year2matter:hover{
+        box-shadow: 2px 2px 2px 5px aqua;
+     }
+     .year3matter:hover{
+        box-shadow: 2px 2px 2px 5px aqua;
+     }
+     .year4matter:hover{
+        box-shadow: 2px 2px 2px 5px aqua;
+     }
+     .services{
+        display:flex;
+        background-color: black;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        gap:30px;
+        height:120vh;
+     }
+     .frontend{
+        height:100px;
+        width:600px;
+        text-align: center;
+        background-color:aqua;
+        border-radius: 10px 10px;
+        transition: 1s all;
+       
+     }
+ 
+     .mainframe{
+        height:100px;
+        width:600px;
+        text-align: center;
+        background-color:aqua;
+        border-radius: 10px 10px;
+        transition: 1s all;
+        z-index: 20px;
+     }
+     .projects{
+        height:100px;
+        width:600px;
+        text-align: center;
+        background-color:aqua;
+        border-radius: 10px 10px;
+        transition: 1s all;
+        z-index: 20px;
+     }
+     .certification{
+        height:100px;
+        width:600px;
+        text-align: center;
+        background-color:aqua;
+        border-radius: 10px 10px;
+        transition: 1s all;
+        z-index: 20px;
+     }
+     
+     
+     
+     .services h1{
+        color:white;
+        text-align: center;
+     }
+     .frontend h2{
+       
+        color:black;
+     }
+     .mainframe h2{
+        color:black;
+     }
+     .frontend:hover{
+        background-color: white;
+        border:2px solid aqua;
+        box-shadow: 2px 2px 2px aqua;
+        z-index: 20;
+
+     }
+     .mainframe:hover{
+        background-color: white;
+        border:2px solid aqua;
+        box-shadow: 2px 2px 2px aqua;
+       
+
+     }
+     .projects:hover{
+        background-color: white;
+        border:2px solid aqua;
+        box-shadow: 2px 2px 2px aqua;
+       
+
+     }
+     .certification:hover{
+        background-color: white;
+        border:2px solid aqua;
+        box-shadow: 2px 2px 2px aqua;
+       
+
+     }
+     .Contact{
+        /* background-color: blueviolet; */
+        display:flex;
+        flex-direction: column;
+        margin-top:0;
+        height:90vh;
+        width:70vw;
+        gap:20px;
+        align-items: center;
+        justify-content: center;
+
+     }
+     .contact{
+        background-color:black;
+        border:2px solid black;
+        color:white;
+        display:flex;
+        gap:20px;
+        
+     }
+    
+     .Contact h2{
+        color:white;
+        font-size: 40px;;
+        text-align: center;
+     }
+     .text{
+        height:30px;
+        background-color: black;
+        color:white;
+        border:2px solid aqua;
+        text-align: center;
+        margin-bottom: 10px;;
+        border-radius: 30px;
+     }
+     .email{
+        background-color: black;
+        color:white;
+        height:30px;
+        border:2px solid aqua;
+        text-align: center;
+        margin-bottom: 10px;;
+        border-radius: 30px;
+     }
+     .phone{
+        background-color: black;
+        color:white;
+        height:30px;
+        border:2px solid aqua;
+        text-align: center;
+        margin-bottom: 10px;;
+        border-radius: 30px;
+     }
+     .text-area{
+        background-color: black;
+        color:white;
+        border:2px solid aqua;
+        text-align: center;
+        text-align: center;
+        margin-bottom: 10px;;
+        border-radius: 20px;
+     }
+     .message{
+    position:relative;
+    right:70px;
+    font-weight: 600;
+    top:20px;
+      color:black;
+      background-color: aqua;
+      border-radius: 30px;; 
+      border:2px solid aqua;
+      height:30px; 
+      box-shadow: 2px 2px 2px 2px aqua;
+     }
+     .message:hover{
+        box-shadow:2px 2px 2px 5px aqua; ;
+     }
+     footer{
+        height:50vh;
+        background-color: rgba(0, 0, 0, 0.133);
+        width:100vw;
+        border-top: 3px solid gray;
+     }
+     .footicon{
+        margin:10px;
+        text-align: center;
+        display:block;
+        align-items: center;
+     }
+     .linkd{
+        color:aqua;
+        font-size: 30px;;
+        transition: 1s all;  
+     }
+     .linkd:hover{
+        color:white;
+        background-color: aqua;
+        border-radius: 50%;
+     }
+     .footpara{
+        color:white;
+        text-align: center;
+     }
+     @media(max-width:510px){
+        .conatiner{
+            background-color: black;
+        }
+        .name{
+            margin-left:300px;
+        }
+        .links{
+            margin-right:150px;
+            display:none;
+            flex-direction: column;
+        }
+        .introduction{
+            display:flex;
+        }
+        .intro{
+            margin-left:200px;
+            display:flex;
+            flex-direction: column;
+        }
+        .education{
+            background-color: black;
+            
+        }
+        .stick{
+            margin-left:130px;
+        }
+        .dot1{
+            position:absolute;
+            right:265px;
+        }
+        .year1matter{
+            position:relative;
+            left:145px;
+            width:85%;
+        }
+     }
